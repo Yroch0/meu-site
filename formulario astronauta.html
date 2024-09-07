@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="imagex/png" href="images.png">
+    <title>ASTRO</title>
+</head>
+
+<body>
+    
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="foguete roxo.png" alt="Logo" width="35" height="28" class="d-inline-block align-text-top">
+            Treinamento para astronautas
+          </a>
+        </div>
+      </nav>
+      <br>
+   
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dias da semana
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Segunda</a></li><br>
+          <li><a class="dropdown-item" href="#">Terça</a></li><br>
+          <li><a class="dropdown-item" href="#">Quarta</a></li><br>
+        </ul>
+      </div>
+      <br>  
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Segunda
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Condicionamento cardiorrespiratorio</a></li><br>
+          <li><a class="dropdown-item" href="#">Aula de mecânica</a></li>
+        </ul>
+      </div>
+        <br>    
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Terça
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Treinamento em gravidade zero</a></li><br>
+              <li><a class="dropdown-item" href="#">Aula sobre astronomia</a></li>
+            </ul>
+          </div>
+       <br>
+       <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Quarta
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Aula sobre coleta de material cientifico</a></li><br>
+          <li><a class="dropdown-item" href="#">Aula sobre astronomia</a></li>
+        </ul>
+      </div>
+      
+      <table class="table table-dark table-striped-columns">
+        <br>
+        <tr>
+            <td>Astronautas:</td>
+            <td>06</td>
+            <td>007</td>
+            <td>0101</td>
+        </tr>
+
+        <tr>
+            <td>Funções:</td>
+            <td>piloto da nave</td>
+            <td>cientista</td>
+            <td>engenheiro da estação espacial</td>
+        </tr>
+      </table>
+
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Primeiro nome</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Ultimo nome</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Usuario</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              por favor coloque seu nome.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            coloque sua cidade.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">estado</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">escolha...</Escolha></option>
+            <option>Rio de janeiro</option>
+            <option>São paulo</option>
+            <option>Minas Gerais</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Aceita os termos de condições?
+            </label>
+            <div class="invalid-feedback">
+              Você precisa aceitar as condições.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">enviar formulario</button>
+        </div>
+      </form>
+
+
+</body>
+</html>
